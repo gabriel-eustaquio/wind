@@ -1,0 +1,13 @@
+.footer-bg{
+  background-color: var(--cor-fundo-footer);
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.25rem 0;
+}
+@media(max-width: 800px){
+  .footer{
+    padding: 1.25rem 0.625rem;
+  }
+}

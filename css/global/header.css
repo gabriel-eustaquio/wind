@@ -1,0 +1,26 @@
+.header-bg{
+  border-bottom: var(--borda);
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9375rem;
+}
+.header-menu a:hover{
+  background-color: var(--cor-fundo-hover);
+  color: var(--cor-letra-hover);
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+@media(max-width: 800px) {
+  .header{
+    flex-direction: column;
+    gap: 0.3125rem;
+  }
+}

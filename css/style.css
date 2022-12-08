@@ -1,0 +1,7 @@
+@import './global/variaveis.css';
+@import './global/global.css';
+@import './global/header.css';
+@import './main/main.css';
+@import './plano/plano.css';
+@import './ambiente/ambiente.css';
+@import './global/footer.css';

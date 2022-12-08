@@ -1,0 +1,20 @@
+.ambiente{
+  padding: 6.25rem 0;
+}
+@media(max-width: 800px){
+  .ambiente{
+    padding: 6.25rem 0.625rem;
+  }
+}
+.ambiente-economia{
+  margin-top: 0.625rem;
+}
+.ambiente-economia li::before{
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  display: inline-block;
+  background-color: var(--cor-b5);
+  border-radius: 50%;
+  margin-right: 0.3125rem;
+}

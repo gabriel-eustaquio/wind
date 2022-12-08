@@ -1,0 +1,42 @@
+@media(max-width: 800px){
+  .plano{
+    padding: 0 0.625rem;
+  }
+  .plano-bronze, .plano-prata, .plano-ouro{
+    grid-template-columns: 1fr 2fr;
+    gap: 0rem 0.625rem;
+  }
+}
+.plano > span{
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.2rem;
+}
+.plano-tipos{
+  display: grid;
+  gap: 0.3125rem;
+}
+.plano-bronze, .plano-prata, .plano-ouro{
+  background-color: var(--cor-fundo-plano);
+  padding: 1.5625rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.plano-bronze::before, .plano-prata::before, .plano-ouro::before{
+  content: "";
+  width: 0.3125rem;
+  height: 1.5625rem;
+  background-color: var(--cor-estetica-plano);
+  position: absolute;
+  left: -0.3125rem;
+}
+.plano-beneficios li::before{
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--cor-estetica-plano);
+  margin-right: 0.3125rem;
+}

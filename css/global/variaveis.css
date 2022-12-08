@@ -1,0 +1,29 @@
+:root{
+  --borda: 0.1rem solid rgba(0,0,0,0.1);
+  --cor-b0: #FFFFFF;
+  --cor-b1: #F2F2F2;
+  --cor-b5: #808080;
+  --cor-b7: #4D4D4D;
+  --cor-b9: #1A1A1A;
+  --cor-fundo: #FFFFFF;
+  --cor-letra: #1A1A1A;
+  --cor-fundo-hover: #1A1A1A;
+  --cor-letra-hover: #FFFFFF;
+  --cor-borda-botao: #1A1A1A;
+  --cor-fundo-plano: #F2F2F2;
+  --cor-estetica-plano: #808080;
+  --cor-fundo-footer: #F2F2F2;
+}
+@media(prefers-color-scheme: dark) {
+  :root {
+    --borda: 0.1rem solid #FFFFFF;
+    --cor-fundo: #1A1A1A;
+    --cor-letra: #FFFFFF;
+    --cor-fundo-hover: #FFFFFF;
+    --cor-letra-hover: #1A1A1A;
+    --cor-borda-botao: #FFFFFF;
+    --cor-fundo-plano: #808080;
+    --cor-estetica-plano: #4D4D4D;
+    --cor-fundo-footer: #808080;
+  }
+}
